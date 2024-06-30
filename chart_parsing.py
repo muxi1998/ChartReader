@@ -2,10 +2,12 @@ from transformers import Pix2StructForConditionalGeneration, Pix2StructProcessor
 from PIL import Image
 from setuptools import setup
 from io import open
-from paddleocr import VERSION
+# from paddleocr import VERSION
 import os
 import sys
 import importlib
+
+VERSION = "2.7.3"
 
 __dir__ = os.path.dirname(__file__)
 
